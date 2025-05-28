@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Love Calculator ❤️</h1>
+    <form id="loveForm">
+      <div class="input-group">
+        <label>Your Name</label>
+        <input type="text" id="yourName" required>
+        <div>
+          <label><input type="radio" name="yourGender" value="male" checked> Male</label>
+          <label><input type="radio" name="yourGender" value="female"> Female</label>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label>Partner's Name</label>
+        <input type="text" id="partnerName" required>
+        <div>
+          <label><input type="radio" name="partnerGender" value="male"> Male</label>
+          <label><input type="radio" name="partnerGender" value="female" checked> Female</label>
+        </div>
+      </div>
+
+      <button type="submit">CALCULATE LOVE %</button>
+    </form>
+
+    <div id="result" class="result-box"></div>
+    </div> <!-- end of main content -->
+<script src="script.js"></script>
+</body>
+</html>
